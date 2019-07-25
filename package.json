@@ -1,0 +1,54 @@
+{
+  "name": "generator-jhipster-ionic",
+  "version": "4.0.0",
+  "description": "A JHipster Module that generates an Ionic Client.",
+  "keywords": [
+    "yeoman-generator",
+    "jhipster",
+    "jhipster-module",
+    "ionic"
+  ],
+  "homepage": "https://github.com/oktadeveloper/generator-jhipster-ionic",
+  "author": {
+    "name": "Matt Raible",
+    "email": "matt.raible@okta.com",
+    "url": "https://developer.okta.com"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oktadeveloper/generator-jhipster-ionic.git"
+  },
+  "dependencies": {
+    "chalk": "2.4.2",
+    "cross-spawn": "6.0.5",
+    "generator-jhipster": ">=6.1.1",
+    "jsonfile": "5.0.0",
+    "pluralize": "8.0.0",
+    "semver": "6.2.0",
+    "shelljs": "0.8.3"
+  },
+  "devDependencies": {
+    "@angular-devkit/schematics-cli": "0.800.6",
+    "@oktadev/schematics": "0.8.3",
+    "chai": "4.2.0",
+    "eslint": "5.16.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.18.0",
+    "fs-extra": "8.0.1",
+    "jsdoc": "3.6.2",
+    "mocha": "6.1.4",
+    "yeoman-assert": "3.1.1",
+    "yeoman-test": "2.0.0"
+  },
+  "scripts": {
+    "test": "mocha --timeout 10000 test/*"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/oktadeveloper/generator-jhipster-ionic/issues"
+  }
+}
